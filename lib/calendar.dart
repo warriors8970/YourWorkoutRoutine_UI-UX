@@ -3,6 +3,8 @@ import 'package:fitness/components/my_calendar.dart';
 
 class CalendarPage extends StatelessWidget {
   final DateTime today=DateTime.now();
+
+  CalendarPage({super.key});
   @override
   Widget build(BuildContext context) {
     return Column(
